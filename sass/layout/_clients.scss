@@ -22,13 +22,7 @@
     margin-right: 30px;
 }
 
-.clients-list__link:hover,
-.clients-icons-link:focus {
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    fill: var(--accent-color);
-    
-}
+
 
 .clients-list__link {
     width: 170px;
@@ -40,4 +34,11 @@
     align-items: center;
     fill: var(--icon);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    fill: var(--accent-color);
+
+}
 }
