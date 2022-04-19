@@ -15,18 +15,18 @@
     width: 370px;
     min-height: 404px;
     position: relative;
-    &{
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-            0px 4px 4px rgba(0, 0, 0, 0.06),
-            1px 4px 6px rgba(0, 0, 0, 0.16);
-    
+     &:hover{
+         box-shadow: 0px 1px 1px 
+                     rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+     
             &:hover .projects-content__text {
                 transform: translate(0);
             
-            
+            }
             }
     }
-}
 
 
 .projects-content {
@@ -56,9 +56,7 @@
 
 .projects-list__item:nth-last-child(3n+1) {
     margin-right: 0;
-    &:nth-last-child(-n+3) {
-        margin-bottom: 0;
-    }
+   
 }
 
 
